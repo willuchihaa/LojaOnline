@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "DepositApplication",
+            "request": "launch",
+            "mainClass": "com.lampi.deposit.DepositApplication"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DepositApplication<deposit>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.lampi.deposit.DepositApplication",
+            "projectName": "deposit",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
