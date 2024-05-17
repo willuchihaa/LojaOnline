@@ -2,8 +2,6 @@ package com.lampi.deposit.model.carrinho;
 
 import java.io.Serializable;
 
-import com.lampi.deposit.model.item.ItensData;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
@@ -46,19 +44,4 @@ public class Carrinho implements Serializable {
     public void PegarItemNome(CarrinhoData data){
         this.nome = data.nome();
     }
-    /*public int calcularTotal(int preco, Integer quantidade) {
-        this.preco = preco;
-        this.quantidade = quantidade;
-        return preco * quantidade;
-    } */
-    public void calcularTotal(CarrinhoTotal total) {
-        this.preco = total.preco();
-        this.quantidade = total.quantidade(); // ta errado
-    }
-    /*public void CalcularTotal(CarrinhoData data){
-        this.preco = data.preco();
-        this.quantidade = data.quantidade();
-    } */
-
-    
 }

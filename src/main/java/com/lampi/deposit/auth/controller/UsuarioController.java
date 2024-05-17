@@ -32,12 +32,6 @@ import jakarta.validation.Valid;
 public class UsuarioController {
     @Autowired
     private UsuarioService usuarioService;
-    @Autowired
-    private UsuarioRepository usuarioRepository;
-    @Autowired
-    private ClienteRepository clienteRepo;
-
-
 
     @GetMapping("/{nome}")
     public ResponseEntity<Usuario>findByNome(@PathVariable(name = "nome")String nome){

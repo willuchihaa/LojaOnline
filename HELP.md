@@ -2,6 +2,7 @@
 
 ### Reference Documentation
 For further reference, please consider the following sections:
+[![Docker Hub Repo](https://img.shields.io/docker/pulls/wirudev/lojaonline.svg)](https://hub.docker.com/repository/docker/wirudev/lojaonline)
 
 * [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
 * [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.2.3/maven-plugin/reference/html/)

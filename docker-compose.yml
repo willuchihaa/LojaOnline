@@ -22,7 +22,7 @@ services:
 
 
   lojaonline:
-    image: wirudev/lojaonline
+    image: wirudev430/lojaonline
     restart: always
     build: ./lojaonline
     working_dir: /lojaonline

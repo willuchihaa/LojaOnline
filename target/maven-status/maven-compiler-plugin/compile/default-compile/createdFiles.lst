@@ -4,7 +4,6 @@ com\lampi\deposit\model\item\Item.class
 com\lampi\deposit\repository\favorito\FavoritoRepository.class
 com\lampi\deposit\model\favorito\Favorito.class
 com\lampi\deposit\auth\controller\ItemController.class
-com\lampi\deposit\model\carrinho\CarrinhoTotal.class
 com\lampi\deposit\config\SecurityFilter.class
 com\lampi\deposit\DepositApplication.class
 com\lampi\deposit\model\usuario\DTOs\UsuarioRegisterDTO.class
@@ -21,7 +20,6 @@ com\lampi\deposit\model\item\ItensCategoria.class
 com\lampi\deposit\repository\itens\ItemRepository.class
 com\lampi\deposit\model\carrinho\CarrinhoDataResumo.class
 com\lampi\deposit\repository\usuario\UsuarioRepository.class
-com\lampi\deposit\auth\controller\Bean.class
 com\lampi\deposit\model\carrinho\CarrinhoData.class
 com\lampi\deposit\model\cliente\Cliente.class
 com\lampi\deposit\repository\cliente\ClienteRepository.class
